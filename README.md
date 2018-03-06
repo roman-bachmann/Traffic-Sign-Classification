@@ -5,7 +5,7 @@ The dataset can be downloaded [here](http://benchmark.ini.rub.de/?section=gtsrb&
 
 **Required packets**: keras, tensorflow, scikit-image, h5py, pandas, matplotlib
 
-## CNN architecture
+## CNN architecture
 
 To classify the images, a CNN with three convolutional layers followed by two fully connected layers was used. Each convolutional layer was followed by a 2x2 max pooling operation and we used dropout after each layer.
 
